@@ -1,0 +1,125 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #e3f2fd;
+}
+
+.container {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  width: 350px;
+  text-align: center;
+}
+
+h2 {
+  color: #007bff;
+  margin-bottom: 15px;
+}
+
+input, select {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+button {
+  width: 100%;
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 15px;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f9f9f9;
+  padding: 12px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  margin-top: 10px;
+}
+
+.task-info {
+  text-align: left;
+  flex-grow: 1;
+}
+
+.task-name {
+  font-weight: bold;
+  color: #333;
+}
+
+.task-description {
+  font-size: 0.9em;
+  color: #666;
+}
+
+.priority {
+  font-size: 0.8em;
+  font-weight: bold;
+  padding: 4px 8px;
+  border-radius: 5px;
+}
+
+.priority.High {
+  background-color: #ff4d4d;
+  color: white;
+}
+
+.priority.Medium {
+  background-color: #ffc107;
+  color: black;
+}
+
+priority.Low {
+  background-color: #28a745;
+  color: white;
+}
+
+.delete-btn {
+  background-color: #dc3545;
+  color: white;
+  padding: 6px 12px;
+  font-size: 0.9em;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  cursor: pointer;
+
+  /* Ajustes clave */
+  width: 80px; /* Ancho fijo */
+  text-align: center; /* Asegurar que el texto esté centrado */
+  flex-shrink: 0; /* Evitar que se reduzca en tamaños pequeños */
+  box-sizing: border-box; /* Evitar que el padding afecte el tamaño */
+}
+
+.delete-btn:hover {
+  background-color: #b02a37;
+}
+
+.delete-btn:focus {
+  outline: none;
+}

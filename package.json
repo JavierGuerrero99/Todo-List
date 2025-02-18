@@ -10,6 +10,7 @@
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-scripts": "5.0.1",
+    "todo-list": "file:",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -35,5 +36,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "proxy": "https://todolist-django-2nb4.onrender.com"
 }
