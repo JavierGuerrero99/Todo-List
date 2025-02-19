@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 
-const API_URL = "/api/tasks/";
+const API_URL = "https://todolist-django-2nb4.onrender.com/api/tasks";
 
 const TodoList = () => {
   const [tasks, setTasks] = useState([]);

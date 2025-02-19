@@ -37,6 +37,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "proxy": "https://todolist-django-2nb4.onrender.com"
+  }
 }
