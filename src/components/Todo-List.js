@@ -42,7 +42,7 @@ const TodoList = () => {
     }
   };
 
-  // Eliminar una tarea
+  // Eliminar una tarea existente
   const deleteTask = async (id) => {
     try {
       await axios.delete(`${API_URL}/${id}`);
