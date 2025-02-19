@@ -45,7 +45,7 @@ const TodoList = () => {
   // Eliminar una tarea
   const deleteTask = async (id) => {
     try {
-      await axios.delete(`${API_URL}${id}/`);
+      await axios.delete(`${API_URL}/${id}`);
       setTasks(tasks.filter((task) => task.id !== id));
     } catch (error) {
       console.error("Error al eliminar tarea:", error);
