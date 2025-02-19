@@ -37,6 +37,8 @@ const TodoList = () => {
       setNewTaskName("");
       setNewTaskDescription("");
       setNewTaskPriority("Medium");
+
+      console.log("Tarea agregada")
     } catch (error) {
       console.error("Error al agregar tarea:", error);
     }
